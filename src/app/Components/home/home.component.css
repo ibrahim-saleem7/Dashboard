@@ -1,0 +1,15 @@
+aside{
+    /* background: red; */
+    width: 250px;
+}
+
+app-main{
+    background: #F6F6F6;
+}
+
+/* aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+} */

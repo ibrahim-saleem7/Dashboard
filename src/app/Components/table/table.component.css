@@ -1,0 +1,264 @@
+.btn-add{
+    border-radius: 6px;
+    background: #FEEE00;
+    width: 108px;
+    height: 36px;  
+    color: #1C1C28;
+    outline: none;
+    font-family: Neo Sans Arabic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.btn-sort,
+.btn-setting{
+    width: 36px;
+    height: 36px;   
+    background: #fff;
+    border: 1px solid #adb5bd;
+}
+
+input{
+    height: 36px;
+    background: #fff;
+    border: 1px solid #adb5bd;
+    border-radius: 7px;
+    width: 100%;
+}
+
+input + svg{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+input::placeholder{
+    color: rgba(146, 161, 173, 0.40);
+    font-family: Neo Sans Arabic;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 13px;
+}
+
+.btn-add{
+    border: none;
+}
+
+th{
+    color: #5A5A67;
+    font-family: Neo Sans Arabic;
+    font-size: 10.382px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.15px;
+}
+
+table{
+    font-size: 9px;
+}
+
+
+[scope="row"]{
+    color: var(--font-style-light, #99A1B7);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 9.805px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    direction: ltr !important;
+}
+
+.border-4{
+    border-color: #fff;
+    border-radius: 1.73px;
+}
+
+[scope="col"]{
+
+    color: #5A5A67;
+    background: #fff0;
+    font-family: Neo Sans Arabic;
+    font-size: 10.382px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.15px; 
+
+}
+
+
+
+
+.btn-day,
+.btn-day-off{
+    border-radius: 2.375px;
+    background: #2385EA;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #Fff;
+    margin: 0 3px;
+}
+.btn-day{
+    background: #2385EA;
+}
+.btn-day-off{
+    background: #F7F7FA;
+    color: #BBBEC2;
+}
+
+.td-bts{
+    display: flex;
+}
+
+.td-name{
+    min-width: 90px !important;
+}
+
+.td-id{
+    min-width: 55px !important;
+}
+
+.custome-border{
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    /* border-color: #fff; */
+    /* border-radius: 1.73px; */
+}
+
+.td-files{
+    min-width: 170px !important;
+}
+.td-files span{
+    color: rgba(0, 0, 0, 0.40);
+    text-align: right;
+    font-family: Inter;
+    font-size: 8.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.catalog{
+    border-radius: 6.65px;
+    background: rgba(7, 113, 222, 0.10);
+    width: 29px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.th-flies{
+    border-radius: 6px;
+    background: #0771DE;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.setting-off{
+    width: 162px;
+    /* height: 152px; */
+    border-radius: 2.982px;
+    background: #FFF;
+    box-shadow: 0px 10.73493766784668px 23.855417251586914px 0px rgba(112, 144, 176, 0.12);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: none;
+}
+.setting-on{
+    display: block;
+}
+
+.setting-off ul{
+    list-style: none;
+    padding: 0;
+}
+.setting-off {
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    height: 24px;
+}
+
+.fliter{
+    color: #6C6C6C;
+
+    font-family: Neo Sans Arabic;
+    font-size: 10.349px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10.735px
+
+}
+
+.controle-table{
+
+    color: #2E2E2E;
+
+    font-family: Neo Sans Arabic;
+    font-size: 9.542px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 16.699px;
+}
+
+
+.btns-page{
+    display: flex;
+    width: 20.764px;
+    height: 20.764px;
+    padding: 5.191px 0px 4.573px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.461px;
+    color: #7E8299 !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10.382px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10.382px; /* 100% */
+    letter-spacing: -0.104px;color: var(--white-dark-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 10.382px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10.382px; /* 100% */
+    letter-spacing: -0.104px;
+    border: none;
+    margin: 0 5px;
+    background: transparent;
+    
+}
+
+.active-btn{
+    background: #0771DE;
+    color: #fff !important;
+}
+.svg-page{
+    transform: rotate(180deg);
+}
+
+.select-page{
+    color: #333;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+}

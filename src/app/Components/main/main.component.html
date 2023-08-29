@@ -1,0 +1,174 @@
+    <header class="position-relative container-fluid" >
+
+        <app-navbar [isSize]="isReSize" ></app-navbar>
+        <div class="responseve-aside">
+            <div   [ngClass]="isReSize ?  ' icon-click d-flex justify-content-center align-items-center d-block  ' : 'icon-click d-flex justify-content-center align-items-center d-none '"  (click)="reSize()">
+            <img class="rotate" src="assets/Avatar/Vector.svg" alt="">
+        </div>
+        </div>
+    </header>
+
+<section class="py-2 " >
+
+
+
+    <div class="container-fluid ">
+        <div class="row justify-content-center " dir="rtl">
+
+            <app-sidebar (newItemEvent)="resvedValue($event)" [ngClass]="isReSize ?  ' d-none col-sm-12 col-md-4 col-lg-2  ' : 'd-block col-sm-5 col-md-2 col-lg-2  ms-auto  p-0 '"></app-sidebar>
+            <div [ngClass]="isReSize ?  'row justify-content-between justify-content-md-between col-12 col-md-12 col-xl-9   ' : 'row justify-content-between justify-content-md-between col-12 col-sm-8 col-md-10  col-lg-10 col-xl-7'">
+                
+                <div [ngClass]="isReSize ?  'col-12 col-sm-6 col-md-5 col-lg-4  rounded-2 mb-2 mb-sm-0 p-1   ' : ' col-12 col-sm-12 col-md-5 col-lg-4  rounded-2 mb-2 mb-sm-0 p-1'"
+                 >
+                    <div class="person-card ">
+                        <div class="row justify-content-between flex-row-reverse p-3">
+                            <div class="col-6 text-start">
+                                <p class="font pt-2 " dir="rtl">10 مايو- 10يونيو <img src="assets/Avatar/Vector.svg" alt=""></p>
+                            </div>
+                            <div class="col-6">
+                                <p class="fw-bold" dir="rtl">الشخص الاول </p>
+                            </div>
+                            <div class="col-8">
+                                    <div class="m-auto" >
+                                        <div class="one">
+                                            <svg class="svg-one" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                                <ellipse cx="4.5" cy="4.44113" rx="4.5" ry="4.44113" transform="matrix(-1 0 0 1 9.5 0.88372)" fill="#3DD598"/>
+                                              </svg>
+                                            <div class="two">
+                                                <svg class="svg-two" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                                                    <ellipse cx="4.5" cy="4.44113" rx="4.5" ry="4.44113" transform="matrix(-1 0 0 1 9.5 0.226013)" fill="#6956E5"/>
+                                                  </svg>
+                                                <div class="three">
+                                                    <svg class="svg-three" xmlns="http://www.w3.org/2000/svg" width="9" height="10" viewBox="0 0 9 10" fill="none">
+                                                        <ellipse cx="4.5" cy="4.44113" rx="4.5" ry="4.44113" transform="matrix(-1 0 0 1 9 0.167877)" fill="#FABE7A"/>
+                                                      </svg>
+                                                      <div class="employ-img">
+                                                        <figure>
+                                                            <img src="assets/Avatar/Image-79.png" alt="Trulli" >
+                                                            <figcaption dir="rtl">الموظف الاول</figcaption>
+                                                          </figure>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <p class="font" dir="rtl">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <ellipse cx="3.68056" cy="3.70094" rx="3.68056" ry="3.70094" transform="matrix(-1 0 0 1 8 0.212574)" fill="#3DD598"/>
+                                        </svg>
+                                        قراءة رقم 1
+                                        <br>
+                                        <span class="fw-bold fs-6 text-dark"  dir="rtl">254</span>
+                                    </p>
+                                    <p class="font" dir="rtl">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                            <ellipse cx="3.75" cy="3.70094" rx="3.75" ry="3.70094" transform="matrix(-1 0 0 1 8 0.0893898)" fill="#7661E2"/>
+                                          </svg>
+                                        قراءة رقم 2
+                                        <br>
+                                        <span class="fw-bold fs-6 text-dark" dir="rtl">120</span>
+                                    </p>
+                                    <p class="font" dir="rtl">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9" fill="none">
+                                            <ellipse cx="3.75" cy="3.70094" rx="3.75" ry="3.70094" transform="matrix(-1 0 0 1 8 0.706398)" fill="#F8C07F"/>
+                                          </svg>
+                                        قراءة رقم 3
+                                        <br>
+                                        <span class="fw-bold fs-6 text-dark"  dir="rtl">25</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div [ngClass]="isReSize ?  'col-12 col-sm-6 col-md-5 col-lg-4  rounded-2 mb-2 mb-sm-0 p-1   ' : ' col-12 col-sm-12 col-md-5 col-lg-4  rounded-2 mb-2 mb-sm-0 p-1'"
+                 >
+                    <div class="statistics-card " >
+                        <div class="row flex-wrap justify-content-center   p-2">
+                            <div class="col-12">
+                                <p class="fw-bolder" dir="rtl">احصائيات</p>
+                            </div>
+                            <div class="device-img col-12 mb-3 ">
+                                <div  class="device text-center">
+                                    <span class="fw-bold"  dir="rtl">158</span><br>
+                                    <span dir="rtl">الجهاز</span>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end flex-row-reverse " >
+                                <div dir="rtl">
+                                    <span class="fw-bold">108</span>
+                                    <br>
+                                    <span class="option ">الخيار الثاني</span> 
+                                </div>
+                                <div dir="rtl" class="mx-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="28" viewBox="0 0 4 28" fill="none">
+                                        <path d="M2.07031 1.61719L2.07031 26.3203" stroke="#FDB841" stroke-width="2.90625" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-6 d-flex justify-content-end flex-row-reverse ">
+                                <div dir="rtl">
+                                    <span class="fw-bold">108</span>
+                                    <br>
+                                    <span class="option"> الخيار الأول</span> 
+                                </div>
+                                <div dir="rtl" class="mx-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="28" viewBox="0 0 4 28" fill="none">
+                                        <path d="M1.85153 1.6172L1.85153 26.3203" stroke="#0771DE" stroke-width="2.90625" stroke-linecap="round"/>
+                                      </svg>
+                                </div>
+                                
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-2 col-lg-4 rounded-2  p-1">
+                    <div class="other-readings ">
+                        <div class="row justify-content-center ">
+                            <div class="col-10">
+                                <div class="card-one mb-2 p-3 text-end text-white">
+                                    <span dir="rtl">قراءات تانية</span><br>
+                                    <span> <img src="assets/Card//Card Rankings//vuesax//outline/timer-start.svg" alt=""><span class="align-middle me-1">35</span></span>
+                                </div>
+                                <div class="card-two mb-2 p-3 text-end text-white">
+                                    <span  dir="rtl">قراءات تانية</span><br>
+                                    <span> <img src="assets/Card//Card Rankings//vuesax//outline//calendar-2.svg" alt=""><span class="align-middle me-1">256</span></span>
+                                </div>
+                                <div class="card-three  p-3 text-end text-white">
+                                    <span dir="rtl">قراءات تانية</span><br>
+                                    <span> <img src="assets/Card//Card Rankings//vuesax//outline/tick-circle.svg" alt=""><span class="align-middle me-1">18</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8 col-xl-12">
+                    <app-table class="col-md-5 col-lg-6" dir="ltr"></app-table>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 d-xl-none">
+                    <div >
+                        <app-calendar class="col-ms-10 col-md-12 col-lg-6 col-xl-10" dir="ltr"></app-calendar>
+                    </div>
+                </div>
+
+            </div>
+
+            <div [ngClass]="isReSize ?  'd-none d-xl-block col-lg-2 col-xl-3 ' : 'd-none d-xl-block col-lg-2 col-xl-3 '">
+                <div >
+                    <app-calendar  dir="ltr"></app-calendar>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+</section>

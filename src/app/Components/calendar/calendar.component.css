@@ -1,0 +1,128 @@
+.icon-calendar{
+
+    border-radius: 8.25px;
+    background: #F7F6FD;
+    width: 93px;
+    height: 35.25px;
+}
+.icon-calendar p{
+
+    color: #A09CB2;
+    font-family: Neo Sans Arabic;
+    font-size: 8.25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.icon-calendar img{
+    width: 18px;
+    height: 18px;
+
+}
+
+.rotate{
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.cursor{
+    cursor: pointer;
+
+}
+
+.text-center p {
+    color: #B4B4B4;
+
+    font-family: Neo Sans Arabic;
+    font-size: 7.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.fw-bold{
+    color: #1C1C28;
+
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    width: 28.671px;
+    height: 28.671px;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-calnder{
+    margin: 0 2px;
+}
+
+
+.active-day{
+    background: #292D32;
+    color: #fff;
+    width: 28.671px;
+    height: 28.671px;
+    border-radius: 50%;
+}
+
+.mark-day{
+    border-radius: 9px;
+    background: #FEEE00;
+}
+
+.border-bottom{
+    border-bottom: 1px dashed #EEEDF2 !important;
+}
+
+.rectangle-one{
+    background: #F2F5F1;
+}
+.rectangle-two{
+    background: #FFF6E3;
+}
+.rectangle-three{
+    background: #7661E2;
+}
+.rectangle-four{
+    background: #F1ECFE;
+}
+
+.rectangle-one,
+.rectangle-two,
+.rectangle-three,
+.rectangle-four{
+    margin: 10px 0;
+    height: 116.333px;
+    border-radius: 10.5px;
+    color: #1C1C28;
+    font-family: Neo Sans Arabic;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+.clock p{
+    color: #76778B;
+
+    font-family: Inter;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.arrow{
+    border-radius: 11.25px;
+    background: #FFF;
+    width: 38.25px;
+    height: 31.523px;
+}
